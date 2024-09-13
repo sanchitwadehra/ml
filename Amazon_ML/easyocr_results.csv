@@ -1,0 +1,11 @@
+group_id,image_link,text_ext,entity_name,entity_value
+748919,https://m.media-amazon.com/images/I/61I9XdN6OFL.jpg,module 'PIL.Image' has no attribute 'ANTIALIAS',item_weight,500.0 gram
+916768,https://m.media-amazon.com/images/I/71gSRbyXmoL.jpg,module 'PIL.Image' has no attribute 'ANTIALIAS',item_volume,1.0 cup
+459516,https://m.media-amazon.com/images/I/61BZ4zrjZXL.jpg,module 'PIL.Image' has no attribute 'ANTIALIAS',item_weight,0.709 gram
+459516,https://m.media-amazon.com/images/I/612mrlqiI4L.jpg,module 'PIL.Image' has no attribute 'ANTIALIAS',item_weight,0.709 gram
+731432,https://m.media-amazon.com/images/I/617Tl40LOXL.jpg,module 'PIL.Image' has no attribute 'ANTIALIAS',item_weight,1400 milligram
+731432,https://m.media-amazon.com/images/I/61QsBSE7jgL.jpg,module 'PIL.Image' has no attribute 'ANTIALIAS',item_weight,1400 milligram
+731432,https://m.media-amazon.com/images/I/81xsq6vf2qL.jpg,module 'PIL.Image' has no attribute 'ANTIALIAS',item_weight,1400 milligram
+731432,https://m.media-amazon.com/images/I/71DiLRHeZdL.jpg,module 'PIL.Image' has no attribute 'ANTIALIAS',item_weight,1400 milligram
+731432,https://m.media-amazon.com/images/I/91Cma3RzseL.jpg,module 'PIL.Image' has no attribute 'ANTIALIAS',item_weight,1400 milligram
+731432,https://m.media-amazon.com/images/I/71jBLhmTNlL.jpg,module 'PIL.Image' has no attribute 'ANTIALIAS',item_weight,1400 milligram
