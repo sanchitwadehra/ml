@@ -1,0 +1,77 @@
+Here are 3-point learning outcomes for each experiment:
+
+**Exp-6.py (Text Chunking)**:
+1. Understanding how to identify and group grammatical constituents (NP, VP, PP) in natural language text using regular expression patterns
+2. Learning to apply Part-of-Speech tagging as a preprocessing step for higher-level NLP tasks
+3. Gaining practical experience with NLTK's chunking capabilities and parse tree visualization
+
+**Exp-7.py (HMM POS Tagging)**:
+1. Understanding how Hidden Markov Models use transition and emission probabilities for sequence labeling tasks
+2. Learning to implement probabilistic models for POS tagging using real-world corpus data
+3. Gaining experience with handling unknown words and probability calculations in NLP applications
+
+**Exp-8.py (Viterbi POS Tagging)**:
+1. Understanding how the Viterbi algorithm efficiently finds the most likely sequence of POS tags
+2. Learning to implement dynamic programming solutions for sequence labeling problems
+3. Gaining practical experience with backtracking algorithms and probability-based decision making in NLP
+
+
+
+Here's a list of required packages for all three experiments:
+
+```bash
+# Core package requirements
+pip install nltk
+pip install numpy
+
+# Additional NLTK downloads needed
+python -c "import nltk; nltk.download('punkt')"
+python -c "import nltk; nltk.download('averaged_perceptron_tagger')"
+python -c "import nltk; nltk.download('brown')"
+python -c "import nltk; nltk.download('universal_tagset')"
+```
+
+Breakdown by experiment:
+
+**Exp-6.py (Text Chunking)**:
+- `nltk`
+- NLTK Data: 
+  - `punkt`
+  - `averaged_perceptron_tagger`
+
+**Exp-7.py (HMM POS Tagging)**:
+- `nltk`
+- `numpy`
+- NLTK Data:
+  - `brown`
+  - `universal_tagset`
+
+**Exp-8.py (Viterbi POS Tagging)**:
+- `nltk`
+- NLTK Data:
+  - `brown`
+  - `universal_tagset`
+
+All these packages can be installed using pip, and the NLTK data will be downloaded automatically when running the code. Python 3.6+ is recommended for all experiments.
+
+
+
+
+Here's a concise 3-point theory for each experiment:
+
+**Exp-6.py (Text Chunking)**:
+1. Implements text chunking using NLTK to group words into meaningful phrases based on their POS tags
+2. Uses RegexpParser with grammar rules to identify noun phrases (NP), verb phrases (VP), and prepositional phrases (PP)
+3. Visualizes the hierarchical structure of chunks in a parse tree format
+
+**Exp-7.py (HMM POS Tagging)**:
+1. Implements Part-of-Speech tagging using Hidden Markov Model with transition and emission probabilities
+2. Uses the Brown corpus to train the model by calculating tag-to-tag and word-to-tag probabilities
+3. Predicts POS tags for new sentences using probability matrices and dynamic programming
+
+**Exp-8.py (Viterbi POS Tagging)**:
+1. Implements POS tagging using the Viterbi algorithm to find the most likely sequence of tags
+2. Uses backpointing to trace the optimal path through tag sequences
+3. Handles unknown words through smoothing and calculates probabilities from training data
+
+
